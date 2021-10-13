@@ -2,14 +2,12 @@ fit-pucture {
     font-size:20px;
 }
 button {
-    width: 2000px;
+    width: 1000px;
     background-color: black;
     color: white;
   }
 
-  div {
-
-  }
+  
   div#tekst_sverhu_kartinki {
 
     position: relative;
