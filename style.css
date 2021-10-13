@@ -7,10 +7,8 @@ button {
     color: white;
   }
 
-  div{
-      width:2000px;
-      height:2000px;
-      background-color: maroon;
+  div {
+
   }
   div#tekst_sverhu_kartinki {
 
@@ -18,11 +16,11 @@ button {
     
     }.tekst_sverhu_kartinki {
     
-    position: absolute;
+    position:absolute;
     
-    top: 50%;
+    top: 80%;
     
-    left: 65px;
+    left: 50px;
     
     text-transform: uppercase;
     
