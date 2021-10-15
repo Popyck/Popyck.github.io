@@ -1,16 +1,17 @@
 fit-pucture {
     font-size:20px;
 }
-button {
-    width: 1000px;
-    background-color: black;
-    color: white;
-  }
+
 text {
 
   display:flex;
   margin: auto;
 
+}
+ 
+foter {
+  background-color: black;
+  height: 300px;
 }
   
 footer-author{
