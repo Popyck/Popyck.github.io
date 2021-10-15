@@ -6,34 +6,11 @@ button {
     background-color: black;
     color: white;
   }
+text {
 
-  
-  div#tekst_sverhu_kartinki {
+  display:flex;
+  margin: auto;
 
-    position: relative;
-    
-    }.tekst_sverhu_kartinki {
-    
-    position:absolute;
-    
-    top: 80%;
-    
-    left: 50px;
-    
-    text-transform: uppercase;
-    
-    color: white;
-    
-    width: 1200px;
-    
-    background: #00000094;
-    
-    padding: 10px;
-    
-    text-align: center;
-    
-    font: bold 24px/34px Helvetica, Sans-Serif;
-    
-    }
+}
     
     
