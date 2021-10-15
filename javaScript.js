@@ -1,1 +1,1 @@
-result = prompt(title, ['default']);
+alert('я лох')
