@@ -1,16 +1,56 @@
-fit-pucture {
+.body{
+  margin: 0;
+  font-size:100%;
+  font-weight:normal;
+}
+.fit-pucture {
     font-size:20px;
 }
 
-footer {
+.footer {
   height: 150px;
-  background-color: slategray;
+  background-color:black;
   display: flex;
 }
   
-footer-author {
+.footer-author {
   background-color: white;
-  font-size: 40px;
+  font-size: 24px;
   margin: auto;
 }
-    
+
+.img {
+  width: 100;
+
+}
+.text{
+  font-size: 55px;
+  color:white;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin:auto; 
+  margin-bottom: 20px;
+}
+
+.header {
+  height: 100vh;
+  background-color: #eee;
+  background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1614441355_34-p-temnii-fon-dlya-chata-41.jpg);
+  background-size: cover;
+  background-position:center;
+  text-align: center;
+}
+.header-title {
+  font-size: 140px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin:auto; 
+}
+
+.overlay  {
+  display:flex;
+  width: 100%;
+  height: 21%;
+  background-color: rgba(0, 0, 0, .5) 
+  }
