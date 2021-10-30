@@ -1,34 +1,138 @@
 <!DOCTYPE html>
-<html>
-   <head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поездки</title>
+    <link rel='stylesheet' href="Style.css">
+</head>
+<body>
+    <section class="promo">
+        <div class="container">
+            <header class="header">
+                <a href='#' class='logo'>
+                    <img src='Logo.svg' alt='logo'>
+                </a>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#">HOME</a></li>
+                        <li class="nav__item"><a href="#">ABOUT</a></li>
+                        <li class="nav__item"><a href="#">SERVICES</a></li>
+                        <li class="nav__item"><a href="#">GALLERY</a></li>
+                        <li class="nav__item"><a href="#">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="promo__content">
+                <div class="promo__text">
+                <h1 class='promo__title'>TRAVEL IS <BR><span>BEAUTIFUL</span></h1>
+                    <P class="promo_descr">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</P>
+            </div>
+            <form  class="Form">
+                <legend class="form__title">REQUEST A QUOTE</legend>
+                <input  type='text' name='fullName' class="form__input"  placeholder="Full Name">
+                <input  type='email' name='EmallAdress' class="form__input" placeholder="Emall Adress">
+                <input  type='tel' name='PhoneNumber' class="form__input" placeholder="Phone Number">
+                <input  type='text' name='Country' class="form__input" placeholder="Country">
+                <input  type='checkbox' name='terms' value="yes" id="terms" class="form__checkbox">
+                <label for="terms">I accept the terms & conditions</label>
+                <input  type='submit' name='send' value="SEND" class="form__btn">
+            </form>
+        </div>
+    </section>
+    <section class="our__services">
+        <div class="container">
+            <h2 class="title our-services__title">OUR<span>SERVICES</span></h2>
+            <div class="our-servisec__content">
+                <div class="our-services__item">
+                    <img src='1.png' alt="heart" class="our-sevices__img">
+                    <p class="our-services_descr">Making your trip<br>beautiful and easier.</p>
+                </div>
+                <div class="our-services__item">
+                    <img src='2.png' alt="tools" class="our-sevices__img">
+                    <p class="our-services_descr">Tools to help you<br>succeed tommorow.</p>
+                </div>
+                <div class="our-services__item">
+                    <img src='3.png' alt="Lamp" class="our-sevices__img">
+                    <p class="our-services_descr">Ideas that will blow<br>you out the blue.</p>
+                </div>
+                <div class="our-services__item">
+                    <img src='per.png' alt="navigeat" class="our-sevices__img">
+                    <p class="our-services_descr">Navigate your path<br>to beautiful world.</p>
+                </div>
+            </div>
 
-        <link rel="shortcut icon" href="icon.png" >
-    <title>Анонимный чат</title>
-
-    
-
-      <meta https-equiv="Content-Type" content="text/html; charset=utf-8" />
-
-      <link rel="stylesheet" href='style.css'>
-      <script src='javaScript.js'></script>
-
-     <header class='header'>
-         <div class='overlay'>
-            <h1 class='header-title'>Ты готов, все узнать ?</h1>
-         </div>
-      </header>
-
-         
-
-   </head>
-
-   <body>
-         
-    <footer class='footer'>
-       <h4 class='footer-author'>Сделал Максик</h4>
+        </div>
+    </section>
+    <section class="our-story">
+            <div class="our-story__content">
+                <p class="our-story__decr">We are in business for over 6 years providing amazing services to client<br>and people love them to the core. View our story to know more.</p>
+                    <a href="#" class="our-story__button">OUR STORY</a>
+            </div>
+        </div>
+    </section>
+    <section class="pricing">
+        <div class="container">
+            <h2 class="title pricing__title">PROCING</h2>
+            <div class="pricing__content">
+                <div class="pricing__item">
+                    <P class="pricing__name">Starter</P>
+                    <P class="pricing__cost">FREE</P>
+                    <p class="pricing__decr">Free Service<br>Multiple Accounts<br>Management No<br>--<br> --</p>
+                    <a href="#" class="pricing__btn">TRY</a>
+                </div>
+                <div class="pricing__item">
+                    <P class="pricing__name">Business</P>
+                    <P class="pricing__cost" >$97</P>
+                    <p class="pricing__decr">Free Service<br>Multiple Accounts<br>Management No<br>Unlimited Data<br>--</p>
+                    <a href="#" class="pricing__btn">SIGN UP</a>
+                    <div class="triangle">
+                        <p>Popular</p>
+                    </div>
+                </div>
+                <div class="pricing__item">
+                    <P class="pricing__name">Professional</P>
+                    <P class="pricing__cost">$297</P>
+                    <p class="pricing__decr">Free Service<br>Multiple Accounts<br>Management No<br>Unlimited Data<br>Whatever You Need</p>
+                    <a href="#" class="pricing__btn">SIGN UP</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reviews">
+        <div class="container">
+            <div class="testimonial">
+                <h2 class="title testimonial__title">TISTIMONIAL</h2>
+                <div class="tistimonial__content">
+                    <div class="testimonial__item">
+                        <div class="testimonial__decr">I have been involved with this comapny for<br> ages and just want to say this is a great work<br> by designcoon.</div>
+                        <div class="testimonial__img"> <img src="Layer4.png" alt="Person"></div>
+                        <div class="testimonial__subtext">DJ Bravo - Frequent Travelera</div>
+                    </div>
+                    <div class="testimonial__item">
+                        <div class="testimonial__decr">I have been involved with this comapny for ages and just.</div>
+                        <div class="testimonial__img"><img src="Layer 6.png" alt="person"></div>
+                        <div class="testimonial__subtext">DJ Bravo - Frequent Travelera</div>
+                </div>
+            </div>
+        </div>
+            <div class="gallery">
+                <h2 class="title gallery__title">GALLERY</h2>
+                <div class="gallery__content">
+                    <img src="4.png" alt="Photo">
+                    <img src="5.png" alt="Photo">
+                    <img src="6.png" alt="Photo">
+                    <img src="7.png" alt="Photo">
+                    <img src="8.png" alt="Photo">
+                    <img src="9.png" alt="Photo">
+                </div>
+                <a href="#" class="gallery__more">VIEW MORE PICTURES</PICture></a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p class="footer__text">Сделал Макс</p>
     </footer>
-    
-   
-   </body>
+</body>
 </html>
-
